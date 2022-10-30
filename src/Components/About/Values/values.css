@@ -1,0 +1,85 @@
+.container-values {
+  width: 800px;
+  margin: auto;
+  color: #ffffff;
+  padding: 126px 0 123px;
+}
+.values {
+  margin-bottom: 124px;
+}
+.values-title-sm {
+  font-weight: 400;
+  font-size: 20px;
+}
+.values-title-lg {
+  font-weight: 400;
+  font-size: 48px;
+  margin-top: 18px;
+  margin-bottom: 28px;
+}
+.values-title-text {
+  font-weight: 400;
+  margin-bottom: 85px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f1f1f1;
+}
+.values-card-title {
+  font-weight: 400;
+  font-size: 28px;
+}
+.values-card-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 18px;
+  color: #f1f1f1;
+}
+.values-card {
+  margin-bottom: 72px;
+  display: flex;
+}
+.values-card-body {
+  margin-left: 50px;
+}
+.values-card:last-child {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 873px) {
+  .values-title {
+    text-align: center;
+  }
+  .container-values {
+    padding: 126px 50px 123px;
+    width: 88%;
+  }
+  .values-card-body {
+    margin: unset;
+  }
+  .values-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .values-card > img {
+    width: 50%;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 384px) {
+  .values-title-lg {
+    font-size: 24px;
+  }
+  .values-title-text {
+    font-size: 13px;
+  }
+  .values-card-text {
+    font-size: 16px;
+  }
+  .values-card-title {
+    font-size: 22px;
+  }
+  .container-values {
+    padding: 126px 18px 123px;
+  }
+}

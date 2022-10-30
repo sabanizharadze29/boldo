@@ -1,0 +1,20 @@
+.latest-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
+}
+.latest-cards-wrapper {
+  grid-row-gap: 80px;
+}
+.latest-button {
+  margin-top: 94px;
+}
+.latesst-news {
+  margin-bottom: 122px;
+}
+@media screen and (max-width: 1100px) {
+  .container-blog > h1 {
+    text-align: center;
+  }
+}

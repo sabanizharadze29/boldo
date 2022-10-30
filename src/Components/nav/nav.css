@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  z-index: 2;
+  justify-content: space-between;
+}
+.nav-logo-light,
+.nav-logo-dark {
+  color: white;
+  display: flex;
+  gap: 11px;
+}
+.nav-logo-dark {
+  color: #0a2640;
+}
+.nav-logo-image {
+  height: 33px;
+  align-self: center;
+  width: 25px;
+}
+.logo-title {
+  font-size: 43px;
+  font-weight: 700;
+}
+.navbar-list {
+  display: flex;
+  gap: 40px;
+  align-self: center;
+  font-size: 16px;
+}
+.navbar-list-light,
+.navbar-list-dark {
+  color: white;
+}
+.navbar-list-dark > .navba-list-item {
+  color: #0a2640;
+}
+
+.navbar-list-light > .navba-list-item {
+  color: white;
+}
+.navba-list-item {
+  align-self: center;
+}
+.login-button {
+  width: 128px;
+  height: 40px;
+  margin-right: 6px;
+  font-weight: 700;
+  border-radius: 24px;
+  font-size: 16px;
+  background: #ffffff;
+}
+.login-button-light {
+  border: 2px solid #ffffff;
+
+  color: #0a2640;
+}
+.login-button-dark {
+  border: 2px solid #0a2640;
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    padding: 0 44px;
+  }
+}

@@ -1,0 +1,20 @@
+.about-gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  min-height: 632px;
+  position: relative;
+  bottom: 96px;
+}
+
+.about-gallery2 {
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+.about-gallery4,
+.about-gallery5 {
+  align-self: end;
+}
+.about-gallery-container > img {
+  justify-self: center;
+}

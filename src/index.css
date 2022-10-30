@@ -1,13 +1,59 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: white;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.title-sm {
+  font-family: "Manrope", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.title-md {
+  font-family: "Manrope", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+.title-lg {
+  font-family: "Manrope", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container-fluid {
+  max-width: 100%;
+}
+.secondary-font {
+  font-family: "Manrope", sans-serif;
+}
+.main-transition {
+  transition: all 0.3s ease;
+}
+.text-center {
+  text-align: center;
+}
+.bg-dark-blue {
+  background-color: #0a2640;
+}
+.spacing-contact-footer {
+  margin-top: 176px;
 }

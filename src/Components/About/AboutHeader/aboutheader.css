@@ -1,0 +1,47 @@
+.about-header {
+  padding: 49px 0 174px;
+}
+.about-header-title {
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 99px;
+}
+.about-header-text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+
+  width: 842px;
+  margin: 17px auto;
+}
+.about-header-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #f1f1f1;
+  width: 745px;
+  margin: auto;
+  max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .about-header-text {
+    padding: 0 50px;
+    width: 100%;
+  }
+  .about-header-info {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 688px) {
+  .about-header-text {
+    font-size: 43px;
+    line-height: 59px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-header-text {
+    padding: 0 20px;
+  }
+}

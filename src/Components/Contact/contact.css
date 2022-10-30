@@ -1,0 +1,74 @@
+.contact form {
+  text-align: center;
+}
+.contact .container {
+  border-radius: 12px;
+  background: url("../../assets/contactcorner.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-color: #0a2640;
+  padding-bottom: 72px;
+}
+/* .contact h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: white;
+  max-width: 716px;
+  margin: auto;
+  padding-top: 73px;
+  margin-bottom: 46px;
+} */
+.contact-title-name {
+  font-weight: 400;
+  font-size: 48px;
+  color: white;
+  max-width: 716px;
+  margin: auto;
+  padding-top: 73px;
+  margin-bottom: 46px;
+}
+.contact-email {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 240px;
+  font-weight: 400;
+  height: 56px;
+  width: 370px;
+  margin-right: 20px;
+  padding-left: 23px;
+  font-size: 20px;
+}
+.submit-button {
+  background: #65e4a3;
+  /* Green */
+
+  border: 2px solid #65e4a3;
+  border-radius: 56px;
+  width: 210px;
+  min-height: 60px;
+  /* Dark Blue */
+
+  color: #0a2640;
+  font-weight: 700;
+  font-size: 20px;
+}
+@media screen and (max-width: 602px) {
+  .contact-title-name {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .submit-button {
+    margin-top: 32px;
+  }
+  .contact-email {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact-title-name {
+    font-size: 25px;
+  }
+  .contact-email {
+    width: 300px;
+  }
+}

@@ -1,0 +1,25 @@
+.spacing-test-cust {
+  margin-top: 124px;
+}
+
+.spacing-cust-blog {
+  margin-top: 155px;
+}
+.spacing-blog-contact {
+  margin-top: 83px;
+}
+
+.spacing-footer-end {
+  margin-top: 10px;
+}
+@media screen and (max-width: 400px) {
+  .spacing-test-cust {
+    margin: 0;
+  }
+  .spacing-cust-blog {
+    margin: 0;
+  }
+  .spacing-contact-footer {
+    margin: 0;
+  }
+}

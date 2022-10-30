@@ -1,0 +1,9 @@
+.service-nav {
+  margin-top: 45px;
+  margin-bottom: 81px;
+}
+@media screen and (max-width: 814px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
